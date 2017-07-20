@@ -12,14 +12,15 @@ $(document).ready(function(){
                    var message = $('#message').val();
                    var envoie =$('<p class="lol" ></p>').text(pseudo + " : " + message);
                    $(".bg").append(envoie)
-                   $('#message').val("")
+                   $('#message').val("").focus()
+                   $(".bg").scrollTop($(".bg").height() + 1000000)
                 };
-
   function bot(){
     var tab = ["bonjour", "salut", "coucou"]
     var ajout =$('<p class="lol2"></p>').text(tab[compt]);
     $(".bg").append(ajout)
     compt++
+    $(".bg").scrollTop($(".bg").height() + 1000000)
     if (compt==tab.length){
       compt=0
     }
@@ -40,6 +41,7 @@ $(document).ready(function(){
                    var envoie =$('<p class="lol" ></p>').text(pseudo + " : " + message);
                    $(".bg").append(envoie)
                    $('#message').val("")
+                   $(".bg").scrollTop($(".bg").height() + 1000000)
                 };
 
   function bot(){
@@ -47,6 +49,7 @@ $(document).ready(function(){
     var ajout =$('<p class="lol2"></p>').text(tab[compt]);
     $(".bg").append(ajout)
     compt++
+    $(".bg").scrollTop($(".bg").height() + 1000000)
     if (compt==tab.length){
       compt=0
     }

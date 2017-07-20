@@ -101,6 +101,7 @@ textarea {
   height: 500px;
   width: 80%;
   margin: auto;
+  overflow: scroll;
 }
 
 .lol {
@@ -111,6 +112,19 @@ textarea {
 .lol2 {
   margin-left: 10px;
   color: orange;
+}
+
+.div1 {
+  text-align: center;
+}
+
+#message {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 
