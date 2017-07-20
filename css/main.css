@@ -95,8 +95,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.bg {
+  background-color:#6495ED;
+  border: 1px solid black;
+  height: 500px;
+  width: 80%;
+  margin: auto;
+}
 
+.lol {
+  text-align: right;
+  margin-right: 10px;
+}
 
+.lol2 {
+  margin-left: 10px;
+  color: orange;
+}
 
 
 
