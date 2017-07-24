@@ -38,14 +38,15 @@ $(document).ready(function(){
 
   function humain(){
                    var message = $('#message').val();
-                   var envoie =$('<p class="lol" ></p>').text(pseudo + " : " + message);
+                   var image=$(".bg").append('<img id="theimg" src="img/personne.png" />')
+                   var envoie =$('<p class="lol" ></p>').text( message  );
                    $(".bg").append(envoie)
                    $('#message').val("")
                    $(".bg").scrollTop($(".bg").height() + 1000000)
                 };
 
   function bot(){
-    var tab = ["bonjour", "salut", "coucou"]
+    var tab = ["Bonjour :)", "Comment tu vas ?", "Au revoir !"]
     var ajout =$('<p class="lol2"></p>').text(tab[compt]);
     $(".bg").append(ajout)
     compt++
