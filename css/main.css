@@ -97,11 +97,15 @@ textarea {
 
 
 body {
-  background-color: grey;
+  background-color: #708090;
+  background-image: url("http://st.gde-fon.com/wallpapers_original/242681_seryj_-goluboj_-lenta_1680x1050_www.Gde-Fon.com.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+
 }
 .bg {
   background-color:#6495ED;
-  border: 1px solid black;
+  border: 5px solid black;
   height: 500px;
   width: 80%;
   margin: auto;
@@ -123,6 +127,8 @@ body {
   margin-left: 10px;
   color: black;
   font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .div1 {
